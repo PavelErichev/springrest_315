@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ru.Kata.Erichev</groupId>
-	<artifactId>springrest_315</artifactId>
+	<artifactId>springRest_315</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-rest_315</name>
 	<description>SpringRest</description>
