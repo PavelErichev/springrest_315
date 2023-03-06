@@ -3,7 +3,7 @@ editUser();
 
 async function editModalData(id) {
     const modal = new bootstrap.Modal(document.querySelector('#editModal'));
-    await openAndFillInTheModal(formEdit, modal, id);
+    await openAndFillInTheModalWindow(formEdit, modal, id);
 }
 
 function editUser() {

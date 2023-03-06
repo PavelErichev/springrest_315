@@ -1,7 +1,7 @@
 fillInPrincipal();
 
 function fillInPrincipal() {
-    fetch("http://localhost:8080/user/userAuth")
+    fetch("http://localhost:8080/user/userList")
         .then(res => res.json())
         .then(data => {
             $('#headerUserName').append(data.email);

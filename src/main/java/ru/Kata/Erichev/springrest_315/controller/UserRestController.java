@@ -11,7 +11,7 @@ import ru.Kata.Erichev.springrest_315.entity.User;
 @RequestMapping("/user")
 public class UserRestController {
 
-    @GetMapping("/userAuth")
+    @GetMapping("/userList")
     public ResponseEntity<User> showAuthUser(@AuthenticationPrincipal User user) {
         return ResponseEntity.ok(user);
     }
