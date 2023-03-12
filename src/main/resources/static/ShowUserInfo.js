@@ -15,7 +15,7 @@ function fillInPrincipal() {
             console.log('userSata', JSON.stringify(user))
             $('#headerUserName').append(user.email);
             /*let roles = data.roles.map(r => " " + r.name.substring(5));*/
-            let roles = user.roles.map(role => role.role.substring(5).concat(" ")).toString().replaceAll(",", "");
+            let roles = user.roles.map(role => role.name.substring(5).concat(" ")).toString().replaceAll(",", "");
             $('#headerRole').append(roles);
             let userList = `$(
                 <tr>
